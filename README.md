@@ -82,7 +82,7 @@ Ensure you have Python installed with the following libraries:
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone hhttps://github.com/prantikm07/Housing-Affordability-Prediction-based-on-socio-economic-factors.git
+   git clone https://github.com/prantikm07/Housing-Affordability-Prediction-based-on-socio-economic-factors.git
    cd your-repo-name
    ```
 2. Install dependencies:
