@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Insights Hub</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">AFhouse</a>
+            <div class="nav-links">
+                <a href="/" class="active">Home</a>
+                <a href="/predict">Predictor</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>House Affordability Prediction</h1>
+            <p>Explore the complex relationships between socio-economic factors and community outcomes</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Featured Articles Section -->
+        <section class="featured-articles">
+            <article class="blog-card">
+                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                    alt="Community Analysis">
+                <div class="blog-content">
+                    <h2>The Intersection of Economics and Public Safety</h2>
+                    <div class="meta">
+                        <span class="author"><i class="fas fa-user"></i> Dr. Sarah Thompson</span>
+                        <span class="date"><i class="fas fa-calendar-alt"></i> March 15, 2024</span>
+                    </div>
+                    <p>Our comprehensive analysis of over 1,900 communities reveals surprising connections between
+                        education levels, employment patterns, and community safety outcomes. Learn how policy makers
+                        can use data-driven approaches to...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                    alt="Data Visualization">
+                <div class="blog-content">
+                    <h2>Decoding Demographic Patterns</h2>
+                    <div class="meta">
+                        <span class="author"><i class="fas fa-user"></i> Data Science Team</span>
+                        <span class="date"><i class="fas fa-calendar-alt"></i> March 12, 2024</span>
+                    </div>
+                    <p>Explore how machine learning models process 127 different community features to predict outcomes.
+                        Our interactive visualization tools help break down complex multivariate relationships into
+                        understandable insights...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2>Ready to Explore Your Community?</h2>
+            <p>Use our advanced prediction model to analyze potential outcomes based on socio-economic factors</p>
+            <br>
+            <a href="/predict" class="cta-button">
+                <i class="fas fa-chart-line"></i> Start Prediction
+            </a>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-grid">
+            <div class="stat-card">
+                <i class="fas fa-database"></i>
+                <h3>1,900+</h3>
+                <p>Communities Analyzed</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-chart-bar"></i>
+                <h3>127</h3>
+                <p>Unique Features Tracked</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-brain"></i>
+                <h3>98%</h3>
+                <p>Prediction Accuracy</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AFHouse. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
