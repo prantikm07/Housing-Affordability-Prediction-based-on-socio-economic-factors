@@ -2,6 +2,9 @@
 
 This project involves the analysis and prediction of population-related statistics using a crime dataset. The goal is to visualize important trends, clean and process the dataset, and apply machine learning models to predict population values.
 
+## Demo
+
+- Live Demo: [Click Here](https://afhouse.onrender.com)
 
 ## Project Overview
 
