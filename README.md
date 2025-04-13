@@ -4,7 +4,7 @@ This project involves the analysis and prediction of population-related statisti
 
 ## Demo
 
-- Live Demo: [Click Here](https://afhouse.onrender.com)
+Live Demo: [Click Here](https://afhouse.onrender.com)
 
 ## Project Overview
 
